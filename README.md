@@ -1,4 +1,4 @@
-# SFDX Simple App
+# Dynamic Inline Related List
 
 [![Deploy](https://deploy-to-sfdx.com/dist/assets/images/DeployToSFDX.svg)](https://deploy-to-sfdx.com/)
 
