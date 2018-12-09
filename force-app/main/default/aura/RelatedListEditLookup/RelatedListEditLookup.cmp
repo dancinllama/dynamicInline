@@ -1,0 +1,42 @@
+<aura:component extends="c:Abstract">
+    <aura:attribute name="recordId" type="Id"  default="" />
+    <aura:attribute name="layoutType" type="String" default="Custom" />
+    <aura:attribute name="sObjectName" type="Object" />
+    <aura:attribute name="field" type="String"  />
+    <aura:attribute name="mode" type="String" default="edit" />
+    <aura:attribute name="isOpen" type="String" default = "true" />
+    
+    <aura:attribute name="showApplyAll" type="boolean" default="false" />
+    <aura:attribute name="applyAll" type="boolean" />
+    
+    <aura:registerEvent name="RelatedListEditLookupEvent" type="c:RelatedListEditLookupEvent"/>
+    
+    <lightning:overlayLibrary aura:id="popuplib"/>
+    <aura:if isTrue="{!v.isOpen}">
+        <lightning:recordEditForm 
+            aura:id="recordEdidForm" 
+            recordId="{!v.recordId}" 
+            objectApiName="{!v.sObjectName}"
+            onsubmit="{!c.handleSubmit}" >
+            <lightning:layout multipleRows="true" verticalAlign="end" horizontalAlign="center">
+            	<aura:if isTrue="{!v.showApplyAll}">
+                	<lightning:layoutItem size="6" padding="around-small">
+                        <lightning:inputField fieldName="{!v.field}" />
+                    </lightning:layoutItem>
+                    <lightning:layoutItem size="6" padding="around-small">
+                        <lightning:input type="toggle" name="applyAll" checked="{!v.applyAll}" label="Apply to all selected rows?" messageToggleActive="Yes" messageToggleInactive="No" />
+                    </lightning:layoutItem>
+                    <aura:set attribute="else">
+						<lightning:layoutItem size="12" padding="around-small">                    
+                            <lightning:inputField fieldName="{!v.field}" />
+                        </lightning:layoutItem>
+                    </aura:set>
+                </aura:if>
+                <lightning:layoutItem size="12" padding="around-small">
+                    <lightning:button label="Cancel" name="cancel" onclick="{!c.handleCancel}" />
+                	<lightning:button type="submit" name="submit" label="Save" variant="brand" />
+                </lightning:layoutItem>
+            </lightning:layout>
+        </lightning:recordEditForm>
+    </aura:if>
+</aura:component>

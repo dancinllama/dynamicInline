@@ -1,0 +1,1133 @@
+[
+    [
+        "C:\\workspace\\relatedlist\\force-app",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544277220840,
+            "changeTime": 1544277222763,
+            "contentHash": "afa93b7c40deab8cdbd247350ad17a9bc39369cd",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544277220789,
+            "changeTime": 1544277220789,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544328205427,
+            "changeTime": 1544328205427,
+            "contentHash": "0a4cc094c7b765bafc647871c744c343f4389e9f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1544329645693,
+            "changeTime": 1544329645693,
+            "contentHash": "10a59ab20bb8af00394a8a681db9ed33b28bbb9c"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\DemoController.cls",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\DemoController.cls",
+            "isDirectory": false,
+            "size": 928,
+            "modifiedTime": 1544277220799,
+            "changeTime": 1544277220799,
+            "contentHash": "9f0477e01923599c93bc2b63d1e7c24e4c5cdfde",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\DemoController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\DemoController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1544277220811,
+            "changeTime": 1544277220811,
+            "contentHash": "347d448172840cfbabc1b5d2ee5d3d1d84f0f15a",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\pages",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\pages",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544277220829,
+            "changeTime": 1544277220829,
+            "contentHash": "8321bf938eae81fc8c55f4bafb5c03e963cd1dbb",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\pages\\DemoPage.page",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\pages\\DemoPage.page",
+            "isDirectory": false,
+            "size": 1543,
+            "modifiedTime": 1544277220825,
+            "changeTime": 1544277220825,
+            "contentHash": "d56cc77570ddc24f356d35ab346feeace058e68d",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\pages\\DemoPage.page-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\pages\\DemoPage.page-meta.xml",
+            "isDirectory": false,
+            "size": 274,
+            "modifiedTime": 1544277220837,
+            "changeTime": 1544277220837,
+            "contentHash": "bb64cc431860f5c9c14f5fb41d5e59eeaf9a7d52",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\test",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\test",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544277220844,
+            "changeTime": 1544277220844,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\test\\default",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\test\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544277220847,
+            "changeTime": 1544277220847,
+            "contentHash": "1adaa84dc07a16d34ede5b9a70713ff832a0f853",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\test\\default\\classes",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\test\\default\\classes",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544277220854,
+            "changeTime": 1544277220854,
+            "contentHash": "5144f1861400212c6d4a274d925b0ff04bede7bb",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\test\\default\\classes\\DemoControllerTests.cls",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\test\\default\\classes\\DemoControllerTests.cls",
+            "isDirectory": false,
+            "size": 634,
+            "modifiedTime": 1544277220853,
+            "changeTime": 1544277220853,
+            "contentHash": "5aebdcde1dad56bd4f7fa41fbbb1a0187cafd6fe",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\test\\default\\classes\\DemoControllerTests.cls-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\test\\default\\classes\\DemoControllerTests.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544277220862,
+            "changeTime": 1544277220862,
+            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb",
+            "isMetadataFile": true,
+            "state": "n",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544277237640,
+            "changeTime": 1544277237640,
+            "contentHash": "b030f902d9f208462dc616331db142c356e82f5e",
+            "isMetadataFile": false,
+            "state": "n",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\Abstract\\Abstract.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\Abstract\\Abstract.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1544306121591,
+            "changeTime": 1544306121591,
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\Abstract\\Abstract.cmp",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\Abstract\\Abstract.cmp",
+            "isDirectory": false,
+            "size": 129,
+            "modifiedTime": 1544306121592,
+            "changeTime": 1544306121592,
+            "contentHash": "d7769b727d943d402eaaa3b9c0eabf84864e6d3e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\Abstract\\AbstractHelper.js",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\Abstract\\AbstractHelper.js",
+            "isDirectory": false,
+            "size": 2598,
+            "modifiedTime": 1544306121593,
+            "changeTime": 1544306121593,
+            "contentHash": "ad895bb3b60d4b062807a88dd19c23d6d6b9d3e9",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEdit.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEdit.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1544306121594,
+            "changeTime": 1544306121594,
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEdit.svg",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEdit.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1544306121594,
+            "changeTime": 1544306121594,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEdit.css",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEdit.css",
+            "isDirectory": false,
+            "size": 45,
+            "modifiedTime": 1544323759690,
+            "changeTime": 1544323759690,
+            "contentHash": "40a5160e6bc06f6643b91a776da8fa31abe59400",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEdit.design",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEdit.design",
+            "isDirectory": false,
+            "size": 1821,
+            "modifiedTime": 1544323759691,
+            "changeTime": 1544323759691,
+            "contentHash": "d691bff7f58c721738e4f77144d7ab35c733bd4b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEditController.js",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEditController.js",
+            "isDirectory": false,
+            "size": 2032,
+            "modifiedTime": 1544328205421,
+            "changeTime": 1544328205421,
+            "contentHash": "c97097ee79b5322fa408b6d41ce6c32657a4fb82",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEditHelper.js",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEditHelper.js",
+            "isDirectory": false,
+            "size": 6397,
+            "modifiedTime": 1544328205422,
+            "changeTime": 1544328205422,
+            "contentHash": "e1467fccf8e85d908d88dad9d41b547122cc7a9a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEditRenderer.js",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEditRenderer.js",
+            "isDirectory": false,
+            "size": 48,
+            "modifiedTime": 1544306121597,
+            "changeTime": 1544306121597,
+            "contentHash": "be4fb16cab0788e3690426cade38290457df8023",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEdit.cmp",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit\\RelatedListEdit.cmp",
+            "isDirectory": false,
+            "size": 7100,
+            "modifiedTime": 1544328205424,
+            "changeTime": 1544328205424,
+            "contentHash": "ff3bc94f4348af939aeed53c13a3b1d129ba4490",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup\\RelatedListEditLookup.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup\\RelatedListEditLookup.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1544306121598,
+            "changeTime": 1544306121598,
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup\\RelatedListEditLookupController.js",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup\\RelatedListEditLookupController.js",
+            "isDirectory": false,
+            "size": 249,
+            "modifiedTime": 1544306121599,
+            "changeTime": 1544306121599,
+            "contentHash": "55e54e269e297b20d7ade0dbd62c2dca83e63af2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup\\RelatedListEditLookup.cmp",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup\\RelatedListEditLookup.cmp",
+            "isDirectory": false,
+            "size": 2292,
+            "modifiedTime": 1544306121599,
+            "changeTime": 1544306121599,
+            "contentHash": "f9eba690f5df6edf1a03053572baed58c52aa81d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup\\RelatedListEditLookupRenderer.js",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup\\RelatedListEditLookupRenderer.js",
+            "isDirectory": false,
+            "size": 48,
+            "modifiedTime": 1544306121600,
+            "changeTime": 1544306121600,
+            "contentHash": "be4fb16cab0788e3690426cade38290457df8023",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup\\RelatedListEditLookupHelper.js",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup\\RelatedListEditLookupHelper.js",
+            "isDirectory": false,
+            "size": 600,
+            "modifiedTime": 1544306121600,
+            "changeTime": 1544306121600,
+            "contentHash": "b0c7cdaed85da2499deba55aa41fa96b3d3f4b7e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookupEvent\\RelatedListEditLookupEvent.evt-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookupEvent\\RelatedListEditLookupEvent.evt-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1544306121601,
+            "changeTime": 1544306121601,
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookupEvent\\RelatedListEditLookupEvent.evt",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookupEvent\\RelatedListEditLookupEvent.evt",
+            "isDirectory": false,
+            "size": 314,
+            "modifiedTime": 1544306121602,
+            "changeTime": 1544306121602,
+            "contentHash": "c129a7a6cad5025bac645ca43ebdc661efaa9562",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\Account.object-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\Account.object-meta.xml",
+            "isDirectory": false,
+            "size": 3921,
+            "modifiedTime": 1544306121611,
+            "changeTime": 1544306121611,
+            "contentHash": "f9283cea22e9fbcd8c7cc5a1c1173a6c2b7b3cc7",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\AccountNumber.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\AccountNumber.field-meta.xml",
+            "isDirectory": false,
+            "size": 202,
+            "modifiedTime": 1544306121611,
+            "changeTime": 1544306121611,
+            "contentHash": "2485668a3437d5add365adc6395699585c0ec6d0",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\AccountSource.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\AccountSource.field-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1544306121611,
+            "changeTime": 1544306121611,
+            "contentHash": "1dee20ac58a40482934d035192fe7a98db6d9a81",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\AnnualRevenue.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\AnnualRevenue.field-meta.xml",
+            "isDirectory": false,
+            "size": 202,
+            "modifiedTime": 1544306121612,
+            "changeTime": 1544306121612,
+            "contentHash": "428d667e4a7e884d30e9f297f975d2a6484dc2cd",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\BillingAddress.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\BillingAddress.field-meta.xml",
+            "isDirectory": false,
+            "size": 203,
+            "modifiedTime": 1544306121612,
+            "changeTime": 1544306121612,
+            "contentHash": "780b69fd147e2be6a8e2388d7c4336e215f67586",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\CleanStatus.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\CleanStatus.field-meta.xml",
+            "isDirectory": false,
+            "size": 200,
+            "modifiedTime": 1544306121613,
+            "changeTime": 1544306121613,
+            "contentHash": "b2a6d6cc0822db9616bc68852769a9ce9e31b8cb",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\DandbCompanyId.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\DandbCompanyId.field-meta.xml",
+            "isDirectory": false,
+            "size": 227,
+            "modifiedTime": 1544306121613,
+            "changeTime": 1544306121613,
+            "contentHash": "c36e183fef5796b39d7f2abad313817f99c74127",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Description.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Description.field-meta.xml",
+            "isDirectory": false,
+            "size": 200,
+            "modifiedTime": 1544306121613,
+            "changeTime": 1544306121613,
+            "contentHash": "57d79a023b3596766f7369502cb5e2bac6a5cb92",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\DunsNumber.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\DunsNumber.field-meta.xml",
+            "isDirectory": false,
+            "size": 199,
+            "modifiedTime": 1544306121614,
+            "changeTime": 1544306121614,
+            "contentHash": "b9eafa97bfa4f532b3645d306161068341cd99dd",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Fax.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Fax.field-meta.xml",
+            "isDirectory": false,
+            "size": 192,
+            "modifiedTime": 1544306121614,
+            "changeTime": 1544306121614,
+            "contentHash": "7531bb94080187ff2cb7ab86658d706842b99d1f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Industry.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Industry.field-meta.xml",
+            "isDirectory": false,
+            "size": 223,
+            "modifiedTime": 1544306121614,
+            "changeTime": 1544306121614,
+            "contentHash": "6f0a5236c2130d964cc6b9654fd5f11e512dca47",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Jigsaw.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Jigsaw.field-meta.xml",
+            "isDirectory": false,
+            "size": 195,
+            "modifiedTime": 1544306121615,
+            "changeTime": 1544306121615,
+            "contentHash": "4ada28399de9ac97f1dc447fb1aaa8b887d11974",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\NaicsCode.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\NaicsCode.field-meta.xml",
+            "isDirectory": false,
+            "size": 198,
+            "modifiedTime": 1544306121615,
+            "changeTime": 1544306121615,
+            "contentHash": "1cf643f5c1633de90169cdb7628f965ac9d927f3",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\NaicsDesc.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\NaicsDesc.field-meta.xml",
+            "isDirectory": false,
+            "size": 198,
+            "modifiedTime": 1544306121615,
+            "changeTime": 1544306121615,
+            "contentHash": "5f0f4a91707a74fee313ea9dbc09659724dfd2f0",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Name.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Name.field-meta.xml",
+            "isDirectory": false,
+            "size": 192,
+            "modifiedTime": 1544306121616,
+            "changeTime": 1544306121616,
+            "contentHash": "68769f37d93e5a8c8bc5ad8c2581f0f06ddca5f9",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\NumberOfEmployees.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\NumberOfEmployees.field-meta.xml",
+            "isDirectory": false,
+            "size": 206,
+            "modifiedTime": 1544306121616,
+            "changeTime": 1544306121616,
+            "contentHash": "9d2f6c78b600962d19202740171268557046a498",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\OperatingHoursId.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\OperatingHoursId.field-meta.xml",
+            "isDirectory": false,
+            "size": 229,
+            "modifiedTime": 1544306121616,
+            "changeTime": 1544306121616,
+            "contentHash": "e05e34427505b15fb131b564768c9199ddf39c9e",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\OwnerId.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\OwnerId.field-meta.xml",
+            "isDirectory": false,
+            "size": 219,
+            "modifiedTime": 1544306121617,
+            "changeTime": 1544306121617,
+            "contentHash": "52c2c64fa2e6525fc461c88e9c37849e89259798",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Ownership.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Ownership.field-meta.xml",
+            "isDirectory": false,
+            "size": 224,
+            "modifiedTime": 1544306121617,
+            "changeTime": 1544306121617,
+            "contentHash": "d84c9b729263e5159ea9a88550f4941bde5aa50e",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\ParentId.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\ParentId.field-meta.xml",
+            "isDirectory": false,
+            "size": 224,
+            "modifiedTime": 1544306121617,
+            "changeTime": 1544306121617,
+            "contentHash": "a189aa9e1c94d29eb1f90c9544bfbd668be25cff",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Phone.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Phone.field-meta.xml",
+            "isDirectory": false,
+            "size": 194,
+            "modifiedTime": 1544306121618,
+            "changeTime": 1544306121618,
+            "contentHash": "d58ccb85259d8a88abf129f4ea89ea8304963487",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Rating.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Rating.field-meta.xml",
+            "isDirectory": false,
+            "size": 221,
+            "modifiedTime": 1544306121618,
+            "changeTime": 1544306121618,
+            "contentHash": "a8224eb175152b9deed680b818cbffd218dd5e3f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\ShippingAddress.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\ShippingAddress.field-meta.xml",
+            "isDirectory": false,
+            "size": 204,
+            "modifiedTime": 1544306121618,
+            "changeTime": 1544306121618,
+            "contentHash": "c30026606731cd625b5d0b4e8e529a2418ef1ee6",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Sic.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Sic.field-meta.xml",
+            "isDirectory": false,
+            "size": 192,
+            "modifiedTime": 1544306121619,
+            "changeTime": 1544306121619,
+            "contentHash": "33262a22c31dbefac748023c3a6c018d743d3161",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\SicDesc.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\SicDesc.field-meta.xml",
+            "isDirectory": false,
+            "size": 196,
+            "modifiedTime": 1544306121619,
+            "changeTime": 1544306121619,
+            "contentHash": "bc19f903ec1384e12d7dd7bc9ffa88580a091422",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Site.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Site.field-meta.xml",
+            "isDirectory": false,
+            "size": 193,
+            "modifiedTime": 1544306121620,
+            "changeTime": 1544306121620,
+            "contentHash": "0f2240d03c79c58a0992338cd2a62f8aa201a0a7",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\TickerSymbol.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\TickerSymbol.field-meta.xml",
+            "isDirectory": false,
+            "size": 201,
+            "modifiedTime": 1544306121620,
+            "changeTime": 1544306121620,
+            "contentHash": "9d08b4f2d44e5bd6161a034a999f2fd3f8179f49",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Tradestyle.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Tradestyle.field-meta.xml",
+            "isDirectory": false,
+            "size": 199,
+            "modifiedTime": 1544306121620,
+            "changeTime": 1544306121620,
+            "contentHash": "61dbe3cf77a2129e24ff09777f38f47e6ccb1297",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Type.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Type.field-meta.xml",
+            "isDirectory": false,
+            "size": 219,
+            "modifiedTime": 1544306121621,
+            "changeTime": 1544306121621,
+            "contentHash": "3467b15d43e2f23e3287cad8cd0622c58b3fdc61",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Website.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\Website.field-meta.xml",
+            "isDirectory": false,
+            "size": 196,
+            "modifiedTime": 1544306121621,
+            "changeTime": 1544306121621,
+            "contentHash": "38590f00b03c4be8e4116dff68bdeaf0d829bfea",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\YearStarted.field-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields\\YearStarted.field-meta.xml",
+            "isDirectory": false,
+            "size": 200,
+            "modifiedTime": 1544306121621,
+            "changeTime": 1544306121621,
+            "contentHash": "797d4a2003a4dc2b7d0b5a3114a8afef7440ccfb",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\flexipages\\Account_Record_Page.flexipage-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\flexipages\\Account_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 8184,
+            "modifiedTime": 1544329645688,
+            "changeTime": 1544329645688,
+            "contentHash": "ae3cb97484ec2d174f6387cb8c1dc0e2e24b7a05"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\LightningResponse.cls-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\LightningResponse.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544306121643,
+            "changeTime": 1544306121643,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\LightningResponse.cls",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\LightningResponse.cls",
+            "isDirectory": false,
+            "size": 1533,
+            "modifiedTime": 1544306121644,
+            "changeTime": 1544306121644,
+            "contentHash": "11a827eaccc625389b7c9f9fb76fbd744f9c7096",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\RelatedListEditCtrl.cls-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\RelatedListEditCtrl.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544306121645,
+            "changeTime": 1544306121645,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\RelatedListEditCtrl.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\RelatedListEditCtrl.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6907,
+            "modifiedTime": 1544329645693,
+            "changeTime": 1544329645693,
+            "contentHash": "b2b907d430c126266d950df856f82b7c0b6fda56"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\Abstract",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\Abstract",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544306121593,
+            "changeTime": 1544306121593,
+            "contentHash": "61592ed373963bc19d0fa886f15794935c681da2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544306121601,
+            "changeTime": 1544306121601,
+            "contentHash": "bc0cb72f0c7a11df61325e477c950eccbf6a01a7",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEdit",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544328205424,
+            "changeTime": 1544306121597,
+            "contentHash": "4c501185e0090d34875385e2c302db3bbfe8e280",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookup",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544306121600,
+            "changeTime": 1544306121600,
+            "contentHash": "10a78a22bd5b24d128dbc9a382ee7a09f58af873",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookupEvent",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\aura\\RelatedListEditLookupEvent",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544306121602,
+            "changeTime": 1544306121602,
+            "contentHash": "1bf9437034523d06072b1aabcb0e328dcd26cd95",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544306121611,
+            "changeTime": 1544306121611,
+            "contentHash": "82a5078765c2f1122397f2a823a7250f80f7bbdb",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544306121638,
+            "changeTime": 1544306121638,
+            "contentHash": "e2c55c3d04baec3534809c6a36bd5648b363c119",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Account\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544306121621,
+            "changeTime": 1544306121621,
+            "contentHash": "fc084546f56879d9a97e6e4367f2abae2a1035f3",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Contact\\fieldSets",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Contact\\fieldSets",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1544329645682,
+            "changeTime": 1544329645682,
+            "contentHash": "c8261557d1cf74aeab78cddd43effc2ca36080db"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Contact",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Contact",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544306121638,
+            "changeTime": 1544306121638,
+            "contentHash": "d30c21302db947d622432664f08be6c9b3861182",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\flexipages",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\flexipages",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544306121641,
+            "changeTime": 1544306121641,
+            "contentHash": "84ae45b14ce04fbcb63fa653277ce669fbb307ea",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\duplicateRules\\Contact.Standard_Contact_Duplicate_Rule.duplicateRule-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\duplicateRules\\Contact.Standard_Contact_Duplicate_Rule.duplicateRule-meta.xml",
+            "isDirectory": false,
+            "size": 979,
+            "modifiedTime": 1544328205427,
+            "changeTime": 1544328205427,
+            "contentHash": "8f84ce7c6945e7beaf68c7f6638cae55f80985b0",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\duplicateRules",
+        {
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\duplicateRules",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544328205427,
+            "changeTime": 1544328205427,
+            "contentHash": "3e060ced2f730c70fe6971af59e8fea2035a082f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Contact\\fieldSets\\Related_List_Test.fieldSet-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\objects\\Contact\\fieldSets\\Related_List_Test.fieldSet-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1098,
+            "modifiedTime": 1544329645682,
+            "changeTime": 1544329645682,
+            "contentHash": "02836918b30cc2a383fd603ed09e947a5836028e"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\RelatedListEditCtrlTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\RelatedListEditCtrlTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1544329645689,
+            "changeTime": 1544329645689,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+        }
+    ],
+    [
+        "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\RelatedListEditCtrlTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\relatedlist\\force-app\\main\\default\\classes\\RelatedListEditCtrlTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2951,
+            "modifiedTime": 1544329645690,
+            "changeTime": 1544329645690,
+            "contentHash": "6e41f78db2d14f227e43c1c48ceb168f9568d2b5"
+        }
+    ]
+]

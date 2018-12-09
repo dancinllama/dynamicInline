@@ -1,0 +1,134 @@
+<aura:component controller="RelatedListEditCtrl" implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" extends="c:Abstract">
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="fieldSetName" type="String" default="" />
+    <aura:attribute name="relationshipApiName" type="String" default="" />
+    <aura:attribute name="pluralLabel" type="String" />
+    <aura:attribute name="childSObjectName" type="String" />
+    <aura:attribute name="childSObjectLabel" type="String" />
+    <aura:attribute name="iconName" type="String" default="standard:account" />
+    
+    <aura:attribute name="sldsClasses" type="String" default="slds-table slds-table_bordered slds-max-medium-table_stacked-horizontal" />
+    <aura:attribute name="keyField" type="String" default="Id" />
+    <aura:attribute name="maxRowSelection" type="Integer" default="" />
+    <aura:attribute name="hideCheckboxColumn" type="boolean" default="true" />
+    <aura:attribute name="showRowNumberColumn" type="boolean" default="" />
+    <aura:attribute name="rowNumberOffset" type="Integer" default="0" />
+    
+    
+    <aura:attribute name="records" type="List" />
+    <aura:attribute name="columns" type="List" />
+    <aura:attribute name="selectedRows" type="List" />
+    
+    <aura:attribute name="draftValues" type="Object" default="[]" />
+    <aura:attribute name="errors" type="Object" default="[]" />
+    
+    <aura:attribute name="displayAddRecord" type="boolean" default="false" />
+    <aura:attribute name="displayDeleteConfirm" type="boolean" default="false" />
+    <aura:attribute name="displayCloneConfirm" type="boolean" default="false" />
+    
+    
+    
+    <aura:attribute name="displayAddRecordButton" type="boolean" default="false" />
+    <aura:attribute name="displayDeleteButton" type="boolean" default="false" />
+    <aura:attribute name="displayCloneButton" type="boolean" default="false" />
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="c:RelatedListEditLookupEvent" action="{!c.handleEditLookup}"/>
+    
+    
+    <aura:if isTrue="{!v.displayAddRecord}">
+        <div>
+  			<section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+    			<div class="slds-modal__container">
+      				<header class="slds-modal__header">
+                        <h2 class="slds-text-heading_medium slds-hyphenate">Add {!v.childSObjectLabel}</h2>
+      				</header>
+      				<div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+        				<lightning:card>
+                            <lightning:recordForm
+                                objectApiName="{!v.childSObjectName}"
+                                layoutType="Full"
+                                columns="1"
+                                mode="edit"
+                                oncancel="{!c.hideAddRecord}"
+                                onsuccess="{!c.handleAddRecordSuccess}"
+                                onerror="{!c.handleAddRecordError}"
+                             />
+                    	</lightning:card>
+                    </div>
+    			</div>
+  			</section>
+  			<div class="slds-backdrop slds-backdrop_open"></div>
+		</div>
+    </aura:if>
+    
+    <aura:if isTrue="{!v.displayDeleteConfirm}">
+        <div>
+  			<section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+    			<div class="slds-modal__container">
+      				<header class="slds-modal__header">
+                        <h2 class="slds-text-heading_medium slds-hyphenate">{!'Would you like to delete ' + v.selectedRows.length + ' ' + v.childSObjectLabel + 's?'}</h2>
+      				</header>
+      				<div class="slds-modal__content slds-p-around_medium modalCenter" id="modal-content-id-1">
+                        <lightning:button onclick="{!c.hideDeleteConfirm}" label="Cancel" />
+                        <lightning:button onclick="{!c.handleDeleteRecords}" variant="brand" label="{!'Delete ' + v.childSObjectLabel + 's'}" />
+                    </div>
+    			</div>
+  			</section>
+  			<div class="slds-backdrop slds-backdrop_open"></div>
+		</div>
+    </aura:if>
+    
+    <aura:if isTrue="{!v.displayCloneConfirm}">
+        <div>
+  			<section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+    			<div class="slds-modal__container">
+      				<header class="slds-modal__header">
+                        <h2 class="slds-text-heading_medium slds-hyphenate">{!'Would you like to clone ' + v.selectedRows.length + ' ' + v.childSObjectLabel + 's?'}</h2>
+      				</header>
+      				<div class="slds-modal__content slds-p-around_medium modalCenter" id="modal-content-id-1">
+                        <lightning:button onclick="{!c.hideCloneConfirm}" label="Cancel" />
+                        <lightning:button onclick="{!c.handleCloneRecords}" variant="brand" label="{!'Clone ' + v.childSObjectLabel + 's'}" />
+                    </div>
+    			</div>
+  			</section>
+  			<div class="slds-backdrop slds-backdrop_open"></div>
+		</div>
+    </aura:if>
+    
+    
+    <lightning:overlayLibrary aura:id="popuplib"/>
+    <lightning:card title="{!v.pluralLabel}" iconName="standard:orders">
+    	<aura:set attribute="actions">
+        	<aura:if isTrue="{!v.displayAddRecordButton}">
+                <lightning:button label="{!'Add ' + v.childSObjectLabel}" variant="brand" iconName="utility:add" onclick="{!c.showAddRecord}" />
+            </aura:if>
+            <aura:if isTrue="{!v.displayCloneButton}">
+                <lightning:button label="{!'Clone Selected ' + v.childSObjectLabel + '(s)'}" variant="brand" iconName="utility:add" onclick="{!c.showCloneRecord}" />
+            </aura:if>
+            <aura:if isTrue="{!v.displayDeleteButton}">
+                <lightning:button label="{!'Delete Selected ' + v.childSObjectLabel + '(s)'}" variant="destructive" iconName="utility:close" onclick="{!c.showDeleteRecord}" />
+            </aura:if>
+        </aura:set>
+        <lightning:datatable 
+            aura:id="dtSessionQuotaWizard" 
+            data="{!v.records}" 
+            title="{!v.pluralLabel}" 
+            keyField="{!v.keyField}" 
+            columns="{!v.columns}"
+            class="{!v.sldsClasses}"
+            hideCheckboxColumn="{!v.hideCheckboxColumn}"
+            showRowNumberColumn="{!v.showRowNumberColumn}"
+            rowNumberOffset="{!v.rowNumberOffset}"
+            draftValues="{!v.draftValues}" 
+            onsave="{!c.handleSave}"
+            oncancel="{!c.handleCancel}"
+            oncellchange="{!c.handleCellChange}"
+            onrowaction="{!c.handleRowAction}"
+            onheaderaction="{!c.handleHeaderAction}"
+            onrowselection="{!c.handleRowSelection}"
+            onsort="{!c.handleSort}"
+            errors="{!v.errors}"
+        />
+    </lightning:card>
+</aura:component>

@@ -1,0 +1,14 @@
+<design:component>
+    <design:attribute name="relationshipApiName" default="" label="Child Relationship API Name" description="API Name of the child relationship." />
+    <design:attribute name="fieldSetName" default="" label="Field Set API Name" description="API Name of the field set to use." />
+    <design:attribute name="iconName" label="Icon name" description="SLDS name of the icon to use for the card." />
+  	<design:attribute name="maxRowSelection" Label="Max Row Selection" description="The maximum number of rows that can be selected. Checkboxes are used for selection by default, and radio buttons are used when maxRowSelection is 1." />
+    <design:attribute name="hideCheckboxColumn" Label="Hide Checkbox Column" description="Hides or displays the checkbox column for row selection. To hide the checkbox column, set hideCheckboxColumn to true. The default is false." />
+    <design:attribute name="showRowNumberColumn" Label="Show Row Number Column" description="Shows or hides the row number column. Set to true to show the row number column. The default is false." />
+    <design:attribute name="pluralLabel" label="Plural label" description="Plural name to use for the label of the card." />
+    <design:attribute name="sldsClasses" label="SLDS classes" description="String of CSS classes to use for the data table." />
+    <design:attribute name="rowNumberOffset" label="Row Number Offset" description="Determines where to start counting the row number. The default is 0." />
+    <design:attribute name="displayAddRecordButton" label="Display Add Record Button" description="" />
+    <design:attribute name="displayCloneButton" label="Display Clone Record Button" description="" />
+	<design:attribute name="displayDeleteButton" label="Display Delete Record Button" description="" />
+</design:component>

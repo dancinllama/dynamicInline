@@ -1,0 +1,1 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" extensible="true" abstract="true">{!v.body}</aura:component>
